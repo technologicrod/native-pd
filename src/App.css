@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+.btn-primary,
+  .bg-primary,
+  .text-primary {
+    background-color: #28a745 !important; /* Green color */
+    border-color: #28a745 !important; /* Green border */
+    color: #fff !important; /* White text */
+  }
+  
+  /* Override hover state */
+  .btn-primary:hover {
+    background-color: #218838 !important;
+    border-color: #1e7e34 !important;
+  }
+.input-group {
+  position: relative;
+}
+
+.input-group-append {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.input-group-append .btn {
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+.input-dark::placeholder {
+  color: white;
+  opacity: 1; 
+}
+.playlist-card {
+  background-color: #333;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.playlist-card:hover {
+  background-color: #9aeb98;
+  color: black;
+}
